@@ -42,7 +42,9 @@
     }
 }
 #footer {
-    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+    backdrop-filter: blur(10px); /* 模糊效果 */
+    -webkit-backdrop-filter: blur(10px); /* 兼容 Safari */
     background-size: 400% 400%;
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;
@@ -92,4 +94,4 @@
   ::-moz-selection {
     color: #fff;
     background-color: #49b1f5;
-}  
+}
